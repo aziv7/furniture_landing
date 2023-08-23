@@ -1,8 +1,10 @@
+import Header from './sections/Header';
+
 function App() {
   return (
-    <>
-      <div>you go</div>
-    </>
+    <div className='lg:max-w-7xl m-0 mx-auto'>
+      <Header />
+    </div>
   );
 }
 
