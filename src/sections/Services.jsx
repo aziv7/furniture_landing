@@ -3,7 +3,7 @@ import React from 'react';
 import { services } from '../data';
 const Services = () => {
   return (
-    <section className='bg-primary-bluish flex sm:flex-row gap-8 flex-col items-center justify-between px-28 py-10 mt-10'>
+    <section className='bg-primary-bluish flex sm:flex-row gap-8 flex-col items-center justify-between px-28 py-10 mt-10 lg:mt-0'>
       {services.map((service) => (
         <div key={service.label} className='flex items-center gap-5'>
           <div>
