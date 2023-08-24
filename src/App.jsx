@@ -6,7 +6,7 @@ import LearnMore from './sections/LearnMore';
 import BrowseRange from './sections/BrowseRange';
 function App() {
   return (
-    <div className='lg:max-w-7xl m-0 mx-auto min-h-screen'>
+    <div className='lg:max-w-7xl m-0 mx-auto min-h-screen overflow-x-hidden'>
       <Header />
       <Hero />
       <Services />

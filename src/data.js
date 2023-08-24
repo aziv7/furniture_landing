@@ -1,6 +1,9 @@
 import transport from './assets/transportation.svg';
 import support from './assets/support.svg';
 import safety from './assets/safety.svg';
+import bed from './assets/bed.svg';
+import living from './assets/living.svg';
+import dinning from './assets/dinning.svg';
 const links = [
   {
     path: '/',
@@ -41,5 +44,20 @@ const services = [
     icon: safety,
   },
 ];
+const ranges = [
+  {
+    label: 'Dining',
+    picture: dinning,
+  },
+  {
+    label: 'Living',
+    picture: living,
+  },
+  {
+    label: 'Bedroom',
 
-export { links, services };
+    picture: bed,
+  },
+];
+
+export { links, services, ranges };
