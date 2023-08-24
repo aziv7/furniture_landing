@@ -5,8 +5,15 @@ import { IoClose } from 'react-icons/io5';
 const Header = () => {
   const [open, setOpen] = useState(false);
   return (
-    <header className='flex  items-center justify-center flex-col border-x-2 rounded-sm   border-b-2  border-black '>
-      <div className='w-full flex  items-center justify-between px-4 py-6'>
+    <header
+      className='flex  items-center 
+    justify-center flex-col  rounded-sm  
+      '
+    >
+      <div
+        className='w-full flex  items-center 
+      justify-between px-4 py-6'
+      >
         <nav className='mx-0 sm:mx-5 md:mx-16'>
           <a
             className='no-underline text-primary-blue font-bold text-2xl'
@@ -15,8 +22,14 @@ const Header = () => {
             Furniture
           </a>
         </nav>
-        <nav className='hidden sm:inline-block mx-0 sm:mx-5 md:mx-8 '>
-          <ul className='flex sm:flex-row flex-col justify-around items-center gap-10 '>
+        <nav
+          className='hidden sm:inline-block
+         mx-0 sm:mx-5 md:mx-8 '
+        >
+          <ul
+            className='flex sm:flex-row 
+          flex-col justify-around items-center gap-10 '
+          >
             {links.map((link) => (
               <a
                 className='no-underline font-semibold text-sm'

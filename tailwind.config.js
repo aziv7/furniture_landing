@@ -6,6 +6,7 @@ export default {
       colors: {
         'primary-blue': '#054C73',
         'secondary-blue': '#DFE9F4',
+        'primary-bluish': '#F2F5FF',
       },
     },
   },
