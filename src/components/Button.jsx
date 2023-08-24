@@ -7,7 +7,7 @@ const Button = ({ label }) => {
     ease-in-out  tracking-normal leading-6
      rounded-full max-w-[12rem] capitalize 
      font-bold text-base bg-primary-blue
-      px-2 py-4'
+      px-8 py-4'
     >
       {label}
     </button>
