@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className='flex  items-center justify-center flex-col border-x-2 rounded-sm   border-b-2  border-black '>
       <div className='w-full flex  items-center justify-between px-4 py-6'>
-        <nav>
+        <nav className='mx-0 sm:mx-5 md:mx-16'>
           <a
             className='no-underline text-primary-blue font-bold text-2xl'
             href='/'
@@ -15,7 +15,7 @@ const Header = () => {
             Furniture
           </a>
         </nav>
-        <nav className='hidden sm:inline-block'>
+        <nav className='hidden sm:inline-block mx-0 sm:mx-5 md:mx-8 '>
           <ul className='flex sm:flex-row flex-col justify-around items-center gap-10 '>
             {links.map((link) => (
               <a
