@@ -4,13 +4,13 @@ import Button from '../components/Button';
 const Hero = () => {
   return (
     <section className=''>
-      <div className='relative '>
+      <div className='lg:relative  flex flex-col items-center justify-center space-y-10'>
         <img src={bg} alt='background image' />
 
         <div
           className='sm:w-[643px] w-[450px]  rounded-xl 
         bg-secondary-blue flex flex-col gap-5 
-        sm:px-8 sm:py-8 absolute
+        sm:px-8 sm:py-8 lg:absolute
         left-6 sm:left-auto
         p-4 
          lg:right-10 right-[10%] -bottom-96 
