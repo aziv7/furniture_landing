@@ -10,8 +10,8 @@ const BrowseRange = () => {
       </p>
       <div className=' flex flex-col  xl:flex-row items-center justify-around gap-8 py-10'>
         {ranges.map((range) => (
-          <div className='flex flex-col gap-5'>
-            <img key={range.label} src={range.picture} alt={range.label} />
+          <div key={range.label} className='flex flex-col gap-5'>
+            <img src={range.picture} alt={range.label} />
             <h5 className='text-2xl font-semibold'>{range.label}</h5>
           </div>
         ))}

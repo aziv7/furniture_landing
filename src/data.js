@@ -4,6 +4,9 @@ import safety from './assets/safety.svg';
 import bed from './assets/bed.svg';
 import living from './assets/living.svg';
 import dinning from './assets/dinning.svg';
+import purchase from './assets/Purchase Securely.svg';
+import ship from './assets/Ships From Warehouse.svg';
+import style from './assets/Style Your Room.svg';
 const links = [
   {
     path: '/',
@@ -60,4 +63,21 @@ const ranges = [
   },
 ];
 
-export { links, services, ranges };
+const works = [
+  {
+    label: 'Purchase Securely',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    picture: purchase,
+  },
+  {
+    label: 'Ships From Warehouse',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    picture: ship,
+  },
+  {
+    label: 'Style Your Room',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    picture: style,
+  },
+];
+export { links, services, ranges, works };
