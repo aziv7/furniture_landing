@@ -1,5 +1,6 @@
-import React from 'react';
 import bg from '../assets/bg.svg';
+import React from 'react';
+
 import Button from '../components/Button';
 const Hero = () => {
   return (
