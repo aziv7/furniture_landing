@@ -4,6 +4,7 @@ import Services from './sections/Services';
 import Inspiration from './sections/Inspiration';
 import LearnMore from './sections/LearnMore';
 import BrowseRange from './sections/BrowseRange';
+import HowItWorks from './sections/HowItWorks';
 function App() {
   return (
     <div className='lg:max-w-7xl m-0 mx-auto min-h-screen overflow-x-hidden'>
@@ -13,6 +14,7 @@ function App() {
       <Inspiration />
       <LearnMore />
       <BrowseRange />
+      <HowItWorks />
     </div>
   );
 }
